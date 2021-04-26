@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'zen dots';
+    background: rgb(114, 63, 63);
+    background-image: url('https://source.unsplash.com/1600x900/?city');
+    font-size: 150%;
+    text-align: center;
+
+}
+
+  .card {
+    background: #0c0c0ce7;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.6em;
+    border-radius: 80%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #aaaaaa2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #aaaaaa2b;
+    color: white;
+    font-family: 'zen dots';
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  input.search-bar:hover {
+    background-color: #cacaca6b;
+  }
